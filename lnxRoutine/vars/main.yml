@@ -1,2 +1,5 @@
 ---
 # vars file for lnxData
+- vars:
+  host_concat: "{{ '-'.join(variable_extra) }}"
+  
