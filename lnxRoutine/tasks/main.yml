@@ -2,4 +2,4 @@
 # tasks file for lnxData
 - name: Extra variables
   debug: 
-    msg: "Extra variables {{ hosts }}"
+    msg: "Extra variables {{ '-'.join(variable_extra) }}"
