@@ -1,0 +1,5 @@
+---
+# tasks file for lnxData
+- name: Extra variables
+  debug: 
+    msg: "Extra variables {{ hosts }}"
